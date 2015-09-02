@@ -83,9 +83,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1 id="pagetitle">Title</h1>
-      <p class="author">By So Andso</p>
-      <p>Lucas ipsum dolor sit amet boba calrissian amidala sith dooku solo moff organa obi-wan windu. Gamorrean binks wedge darth. Mon darth mon kit ponda solo. Moff watto ackbar mothma moff anakin. Lando skywalker lars fett calrissian lars organa. Organa kenobi wedge darth jawa skywalker anakin. Twi'lek kit darth calamari lando kamino droid. Darth jawa fett grievous maul. Palpatine obi-wan leia tusken raider dagobah. Twi'lek qui-gon boba antilles yoda thrawn. Wampa luuke wampa skywalker. Moff ponda ackbar dagobah kit lobot jinn solo.</p>
+      <h1 id="pagetitle">Residential parking permit locations</h1>
+      <!-- <p class="author">By So Andso</p> -->
+      <p>This map shows the location of approved Residential Permit Parking’ areas in the city of Austin. Each dot represents the center of city block that is residential permit parking only. To park in these areas, you must have a residential permit and live on that block. Some permit areas are restricted to residential permits only at certain times.</p>
       </div>
     </div>
 
