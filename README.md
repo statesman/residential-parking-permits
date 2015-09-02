@@ -1,3 +1,13 @@
+# Residential Parking Permits
+
+* Info came city of Austin through Lilly Rockwell.
+* Addresses were in a weird format, so I used a combination of [Parserator](https://parserator.datamade.us/) and regex to get them in a decent order. Much hand editing as well.
+* Map is via Google Fusion Tables in the statcomdata account. Residential Permit Blocks.
+
+## Mobile and Social
+
+* width is 100% on all devices. Standard social buttons.
+
 Single-page project
 ==============================
 
@@ -35,4 +45,3 @@ The path is in `Gruntfile.js`. Add the username/password into a file called `.ft
 ### slack msg
 
 The `grunt-slack-hook` plugin let's us publish finished url to slack as part of ftpush. Needs a .slack file with the Webhook URL from Slack configurations. Just a single line with that url and no return.
-
