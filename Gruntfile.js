@@ -1,4 +1,5 @@
 var fs = require("fs");
+var directory = "news/residential-parking-permits/";
 
 module.exports = function(grunt) {
   'use strict';
@@ -97,7 +98,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/single-page-project',
+        dest: '/stage_aas/projects/news/residential-parking-permits/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -110,7 +111,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/single-page-project-prod/',
+        dest: '/stage_aas/projects/news/residential-parking-permits/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -126,14 +127,16 @@ module.exports = function(grunt) {
           icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
         },
         stage: {
-          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/single-page-project/ {{message}}'
+          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/news/residential-parking-permits/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.com/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.com/news/residential-parking-permits/news/residential-parking-permits/ {{message}}'
         }
     }
 
   });
+
+  // Maybe in use directory var to build publish urls?
 
   // Load the task plugins
   grunt.loadNpmTasks('grunt-contrib-less');

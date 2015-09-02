@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Single page project | Statesman.com",
-    "description" => "Description for single-page-project.",
-    "thumbnail" => "http://projects.statesman.com/project_path/assets/share.png", // needs update
+    "title" => "Residential parking permits | Statesman.com",
+    "description" => "General location of approved ‘Residential Permit Parking’ areas in the city of Austin. Each dot represents an entire city block that is residential permit parking only.",
+    "thumbnail" => "http://projects.statesman.com/news/residential-parking-permits/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/project_path/",
+    "url" => "http://projects.statesman.com/news/residential-parking-permits/",
     "twitter" => "statesman"
   );
 ?>
@@ -41,7 +41,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
- 
+
 
   <?php /* CMG advertising and analytics */ ?>
   <?php include "includes/advertising.inc"; ?>
