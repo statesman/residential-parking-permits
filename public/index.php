@@ -67,7 +67,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <!-- <li><a href="#">Link</a></li> -->
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -86,6 +86,7 @@
       <h1 id="pagetitle">Residential parking permit locations</h1>
       <!-- <p class="author">By So Andso</p> -->
       <p>This map shows the location of approved Residential Permit Parking’ areas in the city of Austin. Each dot represents the center of city block that is residential permit parking only. To park in these areas, you must have a residential permit and live on that block. Some permit areas are restricted to residential permits only at certain times.</p>
+      <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col4+from+1VyPSRvTQMOwK2MZR1o_YYH-6zyOQmrWTtGH0YjOg&amp;viz=MAP&amp;h=false&amp;lat=30.27875988010546&amp;lng=-97.736459317926&amp;t=1&amp;z=13&amp;l=col4&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe>
       </div>
     </div>
 
