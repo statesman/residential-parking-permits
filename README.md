@@ -1,8 +1,13 @@
 # Residential Parking Permits
 
+I ended up publishing this on [myStatesman](http://www.mystatesman.com/interactive/news/residential-permit-parking-map/) instead of projects so it could be metered.
+
+## Deets
 * Info came city of Austin through Lilly Rockwell.
 * Addresses were in a weird format, so I used a combination of [Parserator](https://parserator.datamade.us/) and regex to get them in a decent order. Much hand editing as well.
 * Map is via Google Fusion Tables in the statcomdata account. Residential Permit Blocks.
+
+
 
 ## Mobile and Social
 

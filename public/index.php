@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Residential parking permits | Statesman.com",
+    "title" => "Residential parking permits map | Statesman.com",
     "description" => "General location of approved 'Residential Permit Parking' areas in the city of Austin. Each dot represents an entire city block that is residential permit parking only.",
     "thumbnail" => "http://projects.statesman.com/news/residential-parking-permits/assets/share.png", // needs update
     "shortcut_icon" => "http://projects.statesman.com/news/residential-parking-permits/assets/favicon.ico",
