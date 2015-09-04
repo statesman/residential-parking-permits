@@ -6,9 +6,9 @@
   <?php
   $meta = array(
     "title" => "Residential parking permits | Statesman.com",
-    "description" => "General location of approved ‘Residential Permit Parking’ areas in the city of Austin. Each dot represents an entire city block that is residential permit parking only.",
+    "description" => "General location of approved 'Residential Permit Parking' areas in the city of Austin. Each dot represents an entire city block that is residential permit parking only.",
     "thumbnail" => "http://projects.statesman.com/news/residential-parking-permits/assets/share.png", // needs update
-    "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-08-28-16-58-55/web/site/www_mystatesman_com/images/favicon.ico",
+    "shortcut_icon" => "http://projects.statesman.com/news/residential-parking-permits/assets/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/news/residential-parking-permits/",
     "twitter" => "statesman"

@@ -111,7 +111,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/news/residential-parking-permits/',
+        dest: '/prod_aas/projects/news/residential-parking-permits/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -130,7 +130,7 @@ module.exports = function(grunt) {
           text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/news/residential-parking-permits/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.com/news/residential-parking-permits/news/residential-parking-permits/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.com/news/residential-parking-permits/ {{message}}'
         }
     }
 
